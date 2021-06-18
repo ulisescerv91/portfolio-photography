@@ -1,0 +1,15 @@
+.card{
+    // background-color: blue;
+    // width: calc(50% - 10px);
+    width: 100%;
+    max-width: 280px;
+    // float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &::before{
+        content: '';
+        padding-top: 140%;
+        display: block;
+    }
+}

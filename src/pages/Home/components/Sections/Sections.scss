@@ -1,0 +1,11 @@
+.sections{   
+    // background-color: red;
+    padding: 0 10px;
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    div:nth-child(2),div:nth-child(4){
+        transform: translate(0, -60px);
+    }
+}
