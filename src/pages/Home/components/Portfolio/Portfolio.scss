@@ -1,0 +1,57 @@
+.portfolio{
+    position: relative;
+    height: 500px;
+    overflow: hidden;    
+    background-image: url('https://andyhardy.co/assets/img/sand-1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    &__center{
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        position: relative;
+
+        
+        
+        &__img{
+            display: block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            width: 200px;
+            height: 300px;     
+            position: absolute;       
+            top: 0;
+            left: 0;
+
+            &:nth-child(1){
+                transform: translate(-95%, -75%) rotate(-5deg);
+                background-image: url('https://andyhardy.co/media/pages/home/c863ad0fa3-1613463734/derby-mountain-biking-tasmania-mtb-500x620.jpg');
+            }
+    
+            &:nth-child(2){
+                transform: translate(0, -85%) rotate(10deg);
+                background-image: url('https://andyhardy.co/media/pages/home/d2e9535027-1613463733/aerial-macedon-drone-620x420.jpg');
+    
+            }
+            &:nth-child(3){
+                transform: translate(-110%, -5%) rotate(-10deg);
+                background-image: url('https://andyhardy.co/media/pages/home/c869ba7372-1613463734/canada-banff-exploring-mountain-620x420.jpg');
+    
+            }
+    
+            &:nth-child(4){
+                transform: translate(-15%, -15%) rotate(5deg);
+                background-image: url('https://andyhardy.co/media/pages/home/6976e8603b-1613463735/sarah-west-coast-usa-500x620.jpg');
+    
+            }
+
+        }
+    }
+   
+}

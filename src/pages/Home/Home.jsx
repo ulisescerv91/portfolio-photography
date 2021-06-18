@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from './components/AboutMe/AboutMe'
+import Portfolio from './components/Portfolio/Portfolio'
 import Paralax from './components/Paralax/Paralax'
 import Sections from './components/Sections/Sections'
 
@@ -11,6 +12,7 @@ export default function Home() {
             <Paralax/>
             <Sections/>
             <AboutMe/>
+            <Portfolio/>
         </div>
     )
 }
