@@ -23,7 +23,7 @@ export default function Paralax() {
                         },
                         {
                             image: 'https://andyhardy.co/assets/img/landscape_andy.png',
-                            amount: 0.3,
+                            amount: 0.4,
                             expanded:false
                         },
                         {
