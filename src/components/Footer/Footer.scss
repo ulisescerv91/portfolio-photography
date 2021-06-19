@@ -1,0 +1,55 @@
+.Footer{
+    height: 450px;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__img{
+        background-image: url('https://andyhardy.co/media/site/6ea6b50483-1613463754/andrew-footer-1600x1080.jpg');
+        background-position: center center;
+        background-size: cover;
+        width: 60vw;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    &__topFade{
+        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 60vw;
+    }
+    &__leftFade{
+        background: linear-gradient(270deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 60vw;
+    }
+    &__data{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        &__mail{
+            font-family: 'SilkaMono-Medium', sans-serif;
+            font-size: 32px;
+            line-height: 50px;
+            color: #fff;
+        }
+    }
+    &__credits{
+        position: absolute;
+        bottom: 20px;
+        color: white;
+    }
+}
