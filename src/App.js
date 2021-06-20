@@ -9,8 +9,8 @@ function App() {
     <ParallaxProvider>
 
       <div className="App">
-        <Navigation/>
         <Router>
+          <Navigation/>
           <Switch>
               <Route path="/" exact component={Home} />     
           </Switch>
