@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.scss'
+import SocialIcons from '../SocialIcons/SocialIcons'
 
 export default function Footer() {
     return (
@@ -13,7 +14,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='Footer__credits'>
-                Ulises
+                <SocialIcons position="row"/>
             </div>
         </div>
     )
